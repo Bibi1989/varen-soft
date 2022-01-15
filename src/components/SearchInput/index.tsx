@@ -2,11 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import { SearchOutlined } from "@ant-design/icons";
 
-const SearchInput = () => {
+type Props = {
+  hideInput?: boolean;
+};
+
+const SearchInput: React.FC<Props> = ({ hideInput = false }) => {
   return (
     <SearchDiv>
       <SearchOutlined className="search_icon" />
-      <Input placeholder="Search" />
+      {hideInput && <Input placeholder="Search" />}
     </SearchDiv>
   );
 };

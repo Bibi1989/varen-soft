@@ -29,6 +29,7 @@ export const theme = {
   badge: "#FF754C",
   yellow: "#FFCE73",
   pink: "#FFA2C0",
+  iconShadow: "0 5px 10px rgb(227 230 236 / 60%)",
 };
 
 export const themeDark = {
@@ -44,4 +45,5 @@ export const themeDark = {
   badge: "#FF754C",
   yellow: "#FFCE73",
   pink: "#FFA2C0",
+  iconShadow: "0 5px 10px rgb(0 0 0 / 60%);",
 };

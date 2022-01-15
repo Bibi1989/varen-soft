@@ -19,6 +19,7 @@ export const Col = styled.div`
   padding: 0 50px;
   border-right: 1px solid #cccccc;
   height: 100%;
+  background: ${({ theme }) => theme.background};
 
   @media (max-width: 1340px) {
     padding: 0 15px;

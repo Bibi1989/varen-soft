@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ColHeaderContainer = styled.div`
-  background: transparent;
+  background: ${({ theme }) => theme.background};
   display: flex;
   flex-direction: column;
   justify-content: center;
