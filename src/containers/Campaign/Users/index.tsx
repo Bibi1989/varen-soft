@@ -37,7 +37,7 @@ const Users = () => {
   return (
     <Card className="card">
       <Container>
-        <Title>Active Users right now</Title>
+        <Title>Active Users right now 💡</Title>
         <Row>
           <Col>
             <Content>
@@ -75,15 +75,19 @@ const Users = () => {
         <Divider />
         <Grid>
           <GridChild>
+            <p>Users</p>
             <h1>36K</h1>
           </GridChild>
           <GridChild>
+            <p>Clicks</p>
             <h1>1m</h1>
           </GridChild>
           <GridChild>
+            <p>Sales</p>
             <h1>327$</h1>
           </GridChild>
           <GridChild>
+            <p>Items</p>
             <h1>68</h1>
           </GridChild>
         </Grid>

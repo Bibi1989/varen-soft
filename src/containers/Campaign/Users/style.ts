@@ -21,6 +21,10 @@ export const Content = styled.div`
 export const Row = styled.div`
   display: grid;
   grid-template-columns: 25% 75%;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Col = styled.div`
@@ -43,6 +47,21 @@ export const Grid = styled.div`
 export const GridChild = styled.div`
   border: 1px solid #cccccc;
   text-align: center;
+  padding: 15px;
+
+  h1,
+  p {
+    color: ${({ theme }) => theme.text};
+  }
+
+  p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #808191;
+  }
 `;
 
 export const Div = styled.div`
