@@ -1,6 +1,6 @@
 import { Switch } from "antd";
 import React from "react";
-import { useLayout } from "../../context/LayoutProvider";
+import { useLayout } from "context/LayoutProvider";
 import MobileNavbar from "./MobileNavbar";
 
 import SideMenu from "./SideMenu";

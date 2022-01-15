@@ -1,8 +1,9 @@
 import styled, { css } from "styled-components";
 
-export const AllMenus = styled.div<{ collapse: boolean }>`
-  padding: 20px;
-  position: relative;
+export const SideMenuDiv = styled.div<{ collapse: boolean }>`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   ${({ collapse }) =>
     collapse
@@ -12,6 +13,29 @@ export const AllMenus = styled.div<{ collapse: boolean }>`
       : css`
           padding: 20px;
         `};
+
+  .side_menu_card {
+    background: #cfc8ff;
+    border-radius: 30px;
+  }
+`;
+
+export const AvatarDiv = styled.div`
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+`;
+
+export const AvatarName = styled.div`
+  h3,
+  p {
+    margin: 0;
+  }
+`;
+
+export const AllMenus = styled.div<{ collapse: boolean }>`
+  position: relative;
+  margin-bottom: 50px;
 
   .ham_menu {
     position: absolute;
@@ -56,6 +80,7 @@ export const Divider = styled.div`
 `;
 
 export const MenuBox = styled.div<{ active?: boolean; collapse?: boolean }>`
+  cursor: pointer;
   ${({ collapse, active }) =>
     collapse
       ? css`

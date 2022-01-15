@@ -1,4 +1,5 @@
 import React from "react";
+
 import { HamMenu } from "./style";
 
 type Props = {

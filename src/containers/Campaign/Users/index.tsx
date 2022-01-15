@@ -13,25 +13,10 @@ import {
   Grid,
   GridChild,
 } from "./style";
-import chartImg from "../../../assets/images/chart.png";
-import PageIconSvg from "../../../components/Icons/PageIconSvg";
-import LineSvg from "../../../components/Icons/LineSvg";
-import BlueArrowDow from "../../../components/Icons/BlueArrowDown";
-
-const gridStyle: any = {
-  width: "25%",
-  textAlign: "center",
-};
-
-const borderRadiusLeft: any = {
-  borderTopLeftRadius: 16,
-  borderBottomLeftRadius: 16,
-};
-
-const borderRadiusRight: any = {
-  borderTopRightRadius: 16,
-  borderBottomRightRadius: 16,
-};
+import chartImg from "assets/images/chart.png";
+import PageIconSvg from "components/Icons/PageIconSvg";
+import LineSvg from "components/Icons/LineSvg";
+import BlueArrowDow from "components/Icons/BlueArrowDown";
 
 const Users = () => {
   return (

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 
-import logo from "../../assets/images/logo.png";
-import { useLayout } from "../../context/LayoutProvider";
+import logo from "assets/images/logo.png";
+import { useLayout } from "context/LayoutProvider";
 import { LogoDiv } from "./style";
 
 const Logo = () => {

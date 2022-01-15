@@ -1,8 +1,9 @@
 import React from "react";
 import { Typography } from "antd";
-import IncomeBarChartSvg from "../../../components/Icons/IncomeBarChartSvg";
+
+import IncomeBarChartSvg from "components/Icons/IncomeBarChartSvg";
 import { AffiliateDiv, Div } from "./style";
-import NumberSvg from "../../../components/Icons/NumberSvg";
+import NumberSvg from "components/Icons/NumberSvg";
 
 const { Title } = Typography;
 

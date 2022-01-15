@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Badge } from "antd";
 import { BellOutlined } from "@ant-design/icons";
-import { useLayout } from "../../context/LayoutProvider";
+
+import { useLayout } from "context/LayoutProvider";
 
 const NotificationComponent = () => {
   const { isMobile } = useLayout();

@@ -1,5 +1,5 @@
 import React from "react";
-import BarChartSvg from "../../../../components/Icons/BarChartSvg";
+import BarChartSvg from "components/Icons/BarChartSvg";
 import { UserCard, UserContent } from "./style";
 
 const NewUser = () => {

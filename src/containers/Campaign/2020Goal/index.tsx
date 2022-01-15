@@ -2,7 +2,7 @@ import { Card, Progress } from "antd";
 import Image from "next/image";
 import React from "react";
 
-import cardImage from "../../../assets/images/goal.png";
+import cardImage from "assets/images/goal.png";
 import {
   GoalDiv,
   BackgroundBlue,

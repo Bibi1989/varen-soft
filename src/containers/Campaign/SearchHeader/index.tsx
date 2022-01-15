@@ -1,7 +1,7 @@
 import React from "react";
-import NotificationComponent from "../../../components/Notification";
-import SearchInput from "../../../components/SearchInput";
 
+import NotificationComponent from "components/Notification";
+import SearchInput from "components/SearchInput";
 import { SearchHeaderDiv } from "./style";
 
 const SearchHeader = () => {

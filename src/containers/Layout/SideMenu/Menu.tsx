@@ -8,9 +8,9 @@ import {
   SettingSvg,
   ScheduleSvg,
   StatementSvg,
-} from "../../../components/Icons";
-import { MenusT } from "../../../constants/menus";
-import { useLayout } from "../../../context/LayoutProvider";
+} from "components/Icons";
+import { MenusT } from "constants/menus";
+import { useLayout } from "context/LayoutProvider";
 import { MenuBox, Icon, Label } from "./style";
 
 type Props = {
